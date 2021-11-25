@@ -1,0 +1,7 @@
+{
+  "name": "Tourguide.ar",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
