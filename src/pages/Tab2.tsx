@@ -16,7 +16,8 @@ const Tab2: React.FC = () => {
             <IonTitle size="large">Tab 2</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer name="Tab 2 page" />
+        <iframe title="tour" src="../arfiles/start.html"></iframe>
+        <iframe title="eventsPage" name="eventsPage" src="openURL()"></iframe>
       </IonContent>
     </IonPage>
   );
