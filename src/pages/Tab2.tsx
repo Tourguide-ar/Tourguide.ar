@@ -16,8 +16,9 @@ const Tab2: React.FC = () => {
             <IonTitle size="large">Tab 2</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <iframe title="tour" src="../arfiles/start.html"></iframe>
-        <iframe title="eventsPage" name="eventsPage" src="openURL()"></iframe>
+        <iframe title="tour" id="youtube" src="https://www.youtube.com/embed/cWDJoK8zw58"></iframe>
+        <iframe title="tour" id="tour" src="file://Users/seanmizen/Documents/VisProjects/tourguide-ar/src/arfiles/start.html"></iframe>
+        <iframe title="eventsPage" id="eventsPage" name="eventsPage" src="openURL()"></iframe>
       </IonContent>
     </IonPage>
   );
